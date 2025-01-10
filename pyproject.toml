@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nova"
+version = "1.0.0"
+description = "A terminal-based interactive CLI tool for AWS RDS backup management"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+homepage = "https://github.com/yourusername/nova"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Documentation = "https://github.com/yourusername/nova/docs"
+Source = "https://github.com/yourusername/nova"
+Tracker = "https://github.com/yourusername/nova/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+nova = "nova.cli:cli"

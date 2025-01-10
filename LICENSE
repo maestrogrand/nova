@@ -1,0 +1,224 @@
+# Contributing to Nova
+
+Thank you for your interest in contributing to **Nova**! We welcome contributions to make this tool better for everyone. This document provides guidelines for contributing to the project.
+
+----------
+
+## Table of Contents
+
+1.  [Getting Started](#getting-started)
+2.  [Reporting Issues](#reporting-issues)
+3.  [Feature Requests](#feature-requests)
+4.  [Code Contributions](#code-contributions)
+5.  [Pull Request Guidelines](#pull-request-guidelines)
+6.  [Coding Standards](#coding-standards)
+7.  [License](#license)
+
+----------
+
+## Getting Started
+
+1.  **Fork the Repository**:
+    
+    -   Fork the project on GitHub to your account.
+    -   Clone the forked repository to your local machine:
+        
+        bash
+        
+        Copy code
+        
+        `git clone https://github.com/yourusername/nova.git` 
+        
+2.  **Set Up the Environment**:
+    
+    -   Ensure you have Python 3.8 or higher installed.
+    -   Install the required dependencies:
+        
+        bash
+        
+        Copy code
+        
+        `pip install -r requirements.txt` 
+        
+3.  **Run Tests**:
+    
+    -   Run the existing tests to ensure everything works before you make changes:
+        
+        bash
+        
+        Copy code
+        
+        `pytest` 
+        
+4.  **Create a Branch**:
+    
+    -   Create a new branch for your contribution:
+        
+        bash
+        
+        Copy code
+        
+        `git checkout -b feature/my-new-feature` 
+        
+
+----------
+
+## Reporting Issues
+
+If you encounter a bug or have questions about the project:
+
+1.  **Check Existing Issues**:
+    
+    -   Search the [issue tracker](https://github.com/yourusername/nova/issues) to see if your issue has already been reported.
+2.  **Create a New Issue**:
+    
+    -   If the issue hasn’t been reported, open a new issue.
+    -   Provide the following details:
+        -   A descriptive title.
+        -   Steps to reproduce the issue.
+        -   Expected behavior vs. actual behavior.
+        -   Include logs or screenshots, if applicable.
+
+----------
+
+## Feature Requests
+
+We welcome feature suggestions to improve the Nova tool. If you have an idea:
+
+1.  Open a new issue with the label `enhancement`.
+2.  Provide a detailed description of the feature and how it would benefit users.
+3.  Include any mockups, diagrams, or examples to support your proposal.
+
+----------
+
+## Code Contributions
+
+1.  **Write Clear, Modular Code**:
+    
+    -   Ensure your code is readable, modular, and follows the project's coding standards.
+2.  **Include Tests**:
+    
+    -   Write unit tests for your code using `pytest`.
+    -   Add integration tests, if applicable, for end-to-end functionality.
+3.  **Document Your Code**:
+    
+    -   Add clear comments to your code.
+    -   Update the documentation (`README.md`, or `docs/`) if your changes introduce new features or significant changes.
+
+----------
+
+## Pull Request Guidelines
+
+1.  **Ensure Your Code Passes Tests**:
+    
+    -   Run all tests locally and ensure they pass:
+        
+        bash
+        
+        Copy code
+        
+        `pytest` 
+        
+2.  **Follow the Project Code Style**:
+    
+    -   Use tools like `flake8` or `black` to ensure code consistency:
+        
+        bash
+        
+        Copy code
+        
+        `black .
+        flake8 .` 
+        
+3.  **Rebase Your Branch**:
+    
+    -   Rebase your branch with the `main` branch to ensure it’s up to date:
+        
+        bash
+        
+        Copy code
+        
+        `git fetch origin
+        git rebase origin/main` 
+        
+4.  **Submit the Pull Request**:
+    
+    -   Push your branch to your forked repository:
+        
+        bash
+        
+        Copy code
+        
+        `git push origin feature/my-new-feature` 
+        
+    -   Open a pull request on the [original repository](https://github.com/yourusername/nova/pulls).
+    -   Provide a detailed description of your changes, linking to any related issues.
+5.  **Respond to Feedback**:
+    
+    -   Be open to feedback from maintainers and reviewers.
+    -   Update your pull request as needed based on suggestions.
+
+----------
+
+## Coding Standards
+
+1.  **PEP 8 Compliance**:
+    
+    -   Follow [PEP 8](https://peps.python.org/pep-0008/) for Python coding standards.
+2.  **Naming Conventions**:
+    
+    -   Use descriptive names for variables, functions, and classes.
+3.  **Error Handling**:
+    
+    -   Write robust error handling for your code.
+    -   Log meaningful error messages using the project's logging system.
+
+----------
+
+## License
+
+By contributing to Nova, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+
+----------
+
+Thank you for your contributions! 🚀 If you have any questions or need assistance, feel free to reach out by opening an issue or contacting the maintainers.
+
+##### You said:
+
+print complete nova/LICENSE
+
+###### ChatGPT said:
+
+ChatGPT
+
+Here is the complete content for the `LICENSE` file using the MIT License:
+
+----------
+
+### **File: `nova/LICENSE`**
+
+sql
+
+Copy code
+
+`MIT License
+
+Copyright (c) 2025 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.`
